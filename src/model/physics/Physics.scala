@@ -38,7 +38,7 @@ object Physics {
     var collision: Boolean = false
     if (obj.velocity.y > 0) {
       for (platform <- game.platforms) {
-        if (obj.location.x >= platform.start.x && obj.location.x <= platform.end.x && pl.y > platform.start.y) {
+        if (obj.location.x >= platform.start.x && obj.location.x <= platform.end.x && obj.location.y <= platform.start.y && pl.y >= platform.start.y) {
           collision = true
         }
       }

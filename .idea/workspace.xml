@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="013b8d22-6a66-4c83-898e-64374522d968" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/TestPhysics.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Game.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Game.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/physics/Physics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/physics/Physics.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,22 +15,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/Game.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#15#53#0" expanded="true" />
               </folding>
@@ -65,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/gameobjects/player/Player.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
               <folding>
                 <element signature="e#34#73#0" expanded="true" />
               </folding>
@@ -95,10 +93,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/physics/Physics.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="262">
+              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
               <folding>
                 <element signature="e#23#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/TestPhysics.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+              <folding>
+                <element signature="e#15#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,9 +128,10 @@
         <option value="$PROJECT_DIR$/src/model/physics/PhysicsVector.scala" />
         <option value="$PROJECT_DIR$/src/model/gameobjects/PhysicalObject.scala" />
         <option value="$PROJECT_DIR$/src/model/gameobjects/Platform.scala" />
-        <option value="$PROJECT_DIR$/src/model/Game.scala" />
         <option value="$PROJECT_DIR$/src/model/gameobjects/player/states/PlayerState.scala" />
         <option value="$PROJECT_DIR$/src/model/gameobjects/player/Player.scala" />
+        <option value="$PROJECT_DIR$/src/model/Game.scala" />
+        <option value="$PROJECT_DIR$/src/tests/TestPhysics.scala" />
         <option value="$PROJECT_DIR$/src/model/physics/Physics.scala" />
       </list>
     </option>
@@ -131,7 +142,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -145,6 +156,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,22 +195,18 @@
               <item name="ROARio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="gameobjects" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
+              <item name="physics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ROARio" type="b2602c69:ProjectViewProjectNode" />
               <item name="ROARio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="physics" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,6 +230,52 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="ScalaTest.TestPhysics.Testing:    detectPlatformCollision">
+    <configuration name="TestPhysics.Testing:    computeLocation" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="ROARio" />
+      <setting name="path" value="tests.TestPhysics" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="tests.TestPhysics" />
+      <setting name="testName" value="Testing:    computeLocation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPhysics.Testing:    detectPlatformCollision" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="ROARio" />
+      <setting name="path" value="tests.TestPhysics" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="tests.TestPhysics" />
+      <setting name="testName" value="Testing:    detectPlatformCollision" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.TestPhysics.Testing:    detectPlatformCollision" />
+        <item itemvalue="ScalaTest.TestPhysics.Testing:    computeLocation" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
       <map>
@@ -242,7 +296,8 @@
       <workItem from="1558783060684" duration="8023000" />
       <workItem from="1559103750913" duration="1242000" />
       <workItem from="1559170998157" duration="1049000" />
-      <workItem from="1559223523704" duration="689000" />
+      <workItem from="1559223523704" duration="893000" />
+      <workItem from="1559226086703" duration="4275000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1559223228215</created>
@@ -261,23 +316,44 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestPhysics_Testing_____computeLocation - 2019.05.30 at 14h 12m 41s.xml">
+      <configuration name="TestPhysics.Testing:    computeLocation" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPhysics_Testing_____detectPlatformCollision - 2019.05.30 at 14h 23m 07s.xml">
+      <configuration name="TestPhysics.Testing:    detectPlatformCollision" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPhysics_Testing_____detectPlatformCollision - 2019.05.30 at 14h 40m 54s.xml">
+      <configuration name="TestPhysics.Testing:    detectPlatformCollision" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPhysics_Testing_____detectPlatformCollision - 2019.05.30 at 14h 41m 01s.xml">
+      <configuration name="TestPhysics.Testing:    detectPlatformCollision" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPhysics_Testing_____detectPlatformCollision - 2019.05.30 at 14h 44m 45s.xml">
+      <configuration name="TestPhysics.Testing:    detectPlatformCollision" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPhysics_Testing_____detectPlatformCollision - 2019.05.30 at 14h 45m 10s.xml">
+      <configuration name="TestPhysics.Testing:    detectPlatformCollision" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11003000" />
+    <option name="totallyTimeSpent" value="15482000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18526466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,6 +381,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <option name="LAST_COMMIT_MESSAGE" value="Init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/tests/TestPhysics.scala</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -335,16 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/gameobjects/player/Player.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#34#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/gameobjects/player/states/PlayerState.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -359,22 +437,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/physics/Physics.scala">
+    <entry file="file://$PROJECT_DIR$/src/model/gameobjects/player/Player.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
           <folding>
-            <element signature="e#23#40#0" expanded="true" />
+            <element signature="e#34#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Game.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/OutcomeOf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/physics/Physics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="e#23#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/TestPhysics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

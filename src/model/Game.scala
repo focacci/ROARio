@@ -4,19 +4,21 @@ import model.gameobjects.player.Player
 import model.gameobjects.{PhysicalObject, Platform}
 import model.physics.{Physics, PhysicsVector}
 
-class Game {
+class Game(val host: String) {
 
 
   var players: Map[String, Player] = Map()
-  var level: Map[Int, Level] = Map()
+  addPlayer(host)
 
   var objects: List[PhysicalObject] = List()
   var platforms: List[Platform] = List()
 
-  val width: Int = 600
-  val height: Int = 900
+  val dimensions: Map[String, Int] = Map(
+    "width" -> 900,
+    "height" -> 600
+  )
 
-  var startingLocation: PhysicsVector = new PhysicsVector(this.width.toDouble / 2, this.height.toDouble)
+  var startingLocation: PhysicsVector = new PhysicsVector(dimensions("width").toDouble / 2, dimensions("height").toDouble)
 
   var lastUpdateTime: Long = System.nanoTime()
 
@@ -27,6 +29,10 @@ class Game {
 
   def removePlayer(username: String): Unit = {
     this.players -= username
+  }
+
+  def addPlatform(platform: Platform): Unit = {
+    this.platforms = platform :: this.platforms
   }
 
   def update(): Unit = {
