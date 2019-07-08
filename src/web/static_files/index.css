@@ -1,0 +1,16 @@
+body {
+    background-color: indigo;
+}
+
+h1 {
+    color: lightblue;
+    alignment: center;
+    size: 1.8em;
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+#game {
+    alignment: center;
+    color: white;
+}

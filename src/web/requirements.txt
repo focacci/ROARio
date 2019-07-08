@@ -1,0 +1,8 @@
+# Required libraries to run the server
+
+# cd to this directory and run:     pip install -r requirements.txt
+
+
+eventlet
+flask
+flask_socketio

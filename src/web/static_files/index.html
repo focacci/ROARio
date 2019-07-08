@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ROARio</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+
+</head>
+
+<body>
+    <h1>ROARio</h1>
+    <h2 id="message"></h2>
+    <h2 id="test"></h2>
+
+    <form>
+        Username: <br>
+        <input type="text" id="username"/><br>
+    </form>
+    <button onclick="send_username_to_server();">Submit</button>
+
+    <canvas id="game"></canvas>
+
+    <script src="index.js"></script>
+    <script src="inputs.js"></script>
+</body>
+
+</html>
