@@ -20,6 +20,11 @@ class PhysicsVector(var x: Double,
   }
 
 
+  override def toString: String = {
+    "(" + this.x.toString + ", " + this.y.toString + ")"
+  }
+
+
 
 
 }
